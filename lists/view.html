@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Collection of items list</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+<div ng-app="myApp" ng-controller="myCtrl">
+<div class="header">
+	<h1>Materials List</h1>
+</div>
+<div class="list">
+	<ul>
+		<li ng-repeat="x in material">{{x}}  <span ng-click="removeIteam($index)">(x)</span></li>
+	</ul>
+
+</div>
+<div class="inputit">
+	<input placeholder="Add shopping items here" ng-model="addMe">
+	<button ng-click="addItem()">Add</button>
+</div>
+<p class="errormsg">{{errortext}}</p>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

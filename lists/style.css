@@ -1,0 +1,37 @@
+.header{
+         background-color:#99ccff;
+         margin-right: 400px;
+         margin-left: 400px;
+		}
+		h1{
+		  	text-align: center;
+		  }
+  .list ul li{
+            text-align: center;
+             list-style-type: none;
+              font-size: 26px;
+              background-color: #FFE4B5;
+              margin-left: 360px;
+              margin-right: 394px;
+		    }
+     .inputit input{
+                  margin-left: 400px;
+                  box-sizing: border-box;
+                  width: 41%;
+                  height: 30%
+                  margin: 8px , 0;
+                  background-color: #FFE4B5;
+		        }
+          input.placeholder{
+		  	            text-align: center;
+		                }
+		     .inputit button{
+		                    margin-left: 660px;
+		  	                font-size: 20px;
+		  	                background-color:#99ccff;
+		                   }
+		         .errormsg {
+		                 	margin-left: 600px;
+		  	                color: red;
+		                   }
+		  
